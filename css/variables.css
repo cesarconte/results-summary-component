@@ -1,0 +1,100 @@
+/* Variables */
+:root {
+  /* Primary Colors */
+  --color-light-red: hsl(0, 100%, 67%);
+  --color-orangey-yellow: hsl(39, 100%, 56%);
+  --color-green-teal: hsl(166, 100%, 37%);
+  --color-cobalt-blue: hsl(234, 85%, 45%);
+
+  /* Gradients */
+  --color-light-slate-blue: hsl(252, 100%, 67%);
+  --color-light-royal-blue: hsl(241, 81%, 54%);
+
+  --color-violet-blue: hsla(256, 72%, 46%, 1);
+  --color-persian-blue: hsla(241, 72%, 46%, 0);
+
+  /* Neutral */
+  --color-white: hsl(0, 0%, 100%);
+  --color-pale-blue: hsl(221, 100%, 96%);
+  --color-light-lavender: hsl(241, 100%, 89%);
+  --color-dark-gray-blue: hsl(224, 30%, 27%);
+  --color-dark-gray-blue-transparency: hsla(224, 30%, 27%, 0.5);
+
+  /* Semantic colors */
+  --text-primary: var(--color-light-lavender);
+  --text-secondary: var(--color-dark-gray-blue);
+  --text-secondary-transparency: var(--color-dark-gray-blue-transparency);
+  --text-white: var(--color-white);
+  --background: var(--color-pale-blue);
+  --surface: linear-gradient(
+    var(--color-light-slate-blue),
+    var(--color-light-royal-blue)
+  );
+  --surface-secondary: linear-gradient(
+    var(--color-violet-blue),
+    var(--color-persian-blue)
+  );
+  --card-background: var(--color-white);
+  --footer-link-color: var(--color-blue-500);
+  --footer-link-color-hover: var(--color-violet-600);
+
+  /* Shadow colors */
+  --shadow-color: var(--color-dark-gray-blue-transparency);
+
+  /* Shadows */
+  --shadow: 0px 25px 25px 0px var(--shadow-color);
+
+  /* Typography */
+  --font-family: 'Outfit', sans-serif;
+  --font-family-serif: 'Young Serif', serif;
+
+  --font-weight-xbold: 800;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+
+  --font-size-xxlarge: clamp(3.75rem, 3.3099rem + 1.8779vw, 5rem);
+  --font-size-xlarge: 1.75rem;
+  --font-size-large: 1.5rem;
+  --font-size-medium: 1.25rem;
+  --font-size-base: 1rem;
+
+  /* Text presets */
+  --text-preset-1: var(--font-weight-normal) var(--font-size-xxlarge)
+    var(--font-family-serif);
+
+  /* Spacing scale */
+  --spacing-1000: 7.625rem;
+  --spacing-900: 4rem;
+  --spacing-800: 3rem;
+  --spacing-700: 2.5rem;
+  --spacing-600: 2.25rem;
+  --spacing-500: 2rem;
+  --spacing-450: 1.625rem;
+  --spacing-400: 1.5rem;
+  --spacing-350: 1.25rem;
+  --spacing-300: 1rem;
+  --spacing-250: 0.875rem;
+  --spacing-200: 0.75rem;
+  --spacing-150: 0.625rem;
+  --spacing-100: 0.5rem;
+  --spacing-75: 0.375rem;
+  --spacing-50: 0.25rem;
+  --spacing-25: 0.125rem;
+
+  /* Border radius scale */
+  --border-radius-800: 3rem;
+  --border-radius-700: 2.5rem;
+  --border-radius-600: 2.25rem;
+  --border-radius-500: 2rem;
+  --border-radius-400: 1.5rem;
+  --border-radius-350: 1.25rem;
+  --border-radius-300: 1rem;
+  --border-radius-200: 0.75rem;
+  --border-radius-150: 0.625rem;
+  --border-radius-100: 0.5rem;
+  --border-radius-75: 0.375rem;
+  --border-radius-50: 0.25rem;
+
+  /* Transition */
+  --transition-default: 0.3s ease-in-out;
+}
